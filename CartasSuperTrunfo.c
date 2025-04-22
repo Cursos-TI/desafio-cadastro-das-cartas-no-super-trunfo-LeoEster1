@@ -6,7 +6,7 @@
 // Siga os comentários para implementar cada parte do desafio.
 //Teste larissa
 
-int main() {
+int main(void) {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
@@ -17,6 +17,47 @@ int main() {
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+   char Estado = 'C';
+   char Codigo[10]= "A01";
+   char cidade[20] = "Fortaleza";
+   int Populacao = 123434;
+  float Area = 1521.22;
+   float PIB = 321.78;
+   int Pontos_Turisticos = 50;
+    
+   printf("Estado: ");
+   scanf(" %c", &Estado);
+   
+   printf("Codigo: ");
+   scanf("%s", Codigo);
+    
+   printf("Cidade: ");
+   scanf("%s",cidade);
+    
+   printf("População: ");
+   scanf("%d", &Populacao);
 
-    return 0;
+   printf("Área: ");
+   scanf("%f", &Area);
+
+   printf("PIB: ");
+   scanf("%f", &PIB);
+   
+   printf("Pontos Turisticos: ");
+   scanf("%d", &Pontos_Turisticos);
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   return 0;
 }
