@@ -47,7 +47,7 @@ int main(void) {
 
    printf("Numeros de Pontos Turisticos: ");
    scanf("%d",&Pontos_Turisticos); 
-  
+  // comentario
 
    printf("PIB do estado: ");
    scanf("%f",&PIB);
