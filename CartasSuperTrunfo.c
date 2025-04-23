@@ -7,7 +7,7 @@
 //Teste larissa
 
 int main(void) {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
+    // Sugestãoparadas : Defina variáveis separa cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
     // Cadastro das Cartas:
@@ -17,47 +17,47 @@ int main(void) {
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
-   char Estado = 'C';
-   char Codigo[10]= "A01";
-   char cidade[20] = "Fortaleza";
-   int Populacao = 123434;
-  float Area = 1521.22;
-   float PIB = 321.78;
-   int Pontos_Turisticos = 50;
+   char Estado;
+   char Codigo[20];
+   char cidade[40];
+   int Populacao;
+  int Area;
+   float PIB;
+   int Pontos_Turisticos;
     
-   printf("Estado: ");
+   printf("Digite a sigla do estado: ");
    scanf(" %c", &Estado);
-   
-   printf("Codigo: ");
-   scanf("%s", Codigo);
-    
-   printf("Cidade: ");
+  
+
+   printf("Digite o codigo da carta: ");
+   scanf("%s",Codigo);
+ 
+
+   printf("Digite a cidade: ");
    scanf("%s",cidade);
     
-   printf("População: ");
-   scanf("%d", &Populacao);
 
-   printf("Área: ");
-   scanf("%f", &Area);
+   printf("Digite o numero de habitantes: ");
+   scanf("%d",&Populacao);
 
-   printf("PIB: ");
-   scanf("%f", &PIB);
-   
-   printf("Pontos Turisticos: ");
-   scanf("%d", &Pontos_Turisticos);
 
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
+   printf("Digite a area do estado: ");
+   scanf("%d",&Area);
+
+
+   printf("Numeros de Pontos Turisticos: ");
+   scanf("%d",&Pontos_Turisticos); 
+  
+
+   printf("PIB do estado: ");
+   scanf("%f",&PIB);
+
+   printf("Estado: %c\n", Estado);
+   printf("Codigo: %s\n", Codigo);
+   printf("Cidade: %s\n",cidade);
+   printf("População: %d mil habitantes\n",Populacao);
+   printf("Área: %d mil km quadrados\n",Area);
+   printf("Pontos Turisticos: %d\n",Pontos_Turisticos);
+   printf("PIB: %.1f trilhões de reais\n", PIB);
    return 0;
 }
