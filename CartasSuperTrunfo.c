@@ -65,10 +65,10 @@ printf("Cidade: %s\n",cidade1);
 printf("Populacao: %d mil\n",populacao1);
 printf("Area: %.2f mil km quadrados\n", area1);
 printf("Pib: %.1f trilões\n", pib1);
-printf("Pontos turisticos: %d\n",x1);
+printf("Pontos turisticos: %d\n4",x1);
 
 
-printf("\nnCarta 2:\n");
+printf("\nCarta 2:\n");
 printf("Estado: %c\n",Estado2);
 printf("codigo: %s\n", codigo2);
 printf("Cidade: %s\n",cidade2);
