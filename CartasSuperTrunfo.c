@@ -6,16 +6,18 @@ char Estado1,Estado2;
 char codigo1[10],codigo2[10];
 char cidade1[56],cidade2[50];
 int populacao1,populacao2;
-float area1,area2;
-float pib1,pib2;
+double area1,area2, pib1,pib2;
 int x1,x2;
-
+/*area1 = 100.0;
+area2 = 40.9;
+pib1= 1.1;
+pib2 = 1.2;*/
 
 printf("***\n\nDesafio Super Trunfo!***\n\n");
 
 
 printf("Digite a sigla do estado: ");
-scanf("%c", &Estado1);
+scanf(" %c", &Estado1);
 
 printf("codigo da carta: ");
 scanf(" %s",codigo1);
@@ -27,17 +29,17 @@ printf("Digite o numero de habitantes: ");
 scanf("%d",&populacao1);
 
 printf("Digite a area: ");
-scanf("%f", &area1);
+scanf("%lf", &area1);
 
 printf("Digite o pib: ");
-scanf("%f", &pib1);
+scanf("%lf", &pib1);
 
 printf("numeros de pontos turisticos: ");
 scanf("%d", &x1);
 
 
 printf("Digite a sigla do estado2: ");
-scanf("%c", &Estado2);
+scanf(" %c", &Estado2);
 
 printf("codigo da carta2: ");
 scanf(" %s", codigo2);
@@ -48,24 +50,25 @@ scanf(" %s", cidade2);
 printf("Digite o numero de habitantes2: ");
 scanf("%d",&populacao2);
 
+
 printf("Digite a area2: ");
-scanf("%f", &area2);
+scanf("%lf", &area2);
 
 printf("Digite o pib2: ");
-scanf("%f", &pib2);
+scanf("%lf", &pib2);
 
 printf("numeros de pontos turisticos2: ");
 scanf("%d", &x2);
 
 
 printf("Carta 1:\n");
-printf("\nestado 1: %c", Estado1);
+printf("\nestado: %c\n", Estado1);
 printf("codigo: %s\n", codigo1);
 printf("Cidade: %s\n",cidade1);
 printf("Populacao: %d mil\n",populacao1);
 printf("Area: %.2f mil km quadrados\n", area1);
 printf("Pib: %.1f trilões\n", pib1);
-printf("Pontos turisticos: %d\n4",x1);
+printf("Pontos turisticos: %d\n\n",x1);
 
 
 printf("\nCarta 2:\n");
@@ -73,7 +76,7 @@ printf("Estado: %c\n",Estado2);
 printf("codigo: %s\n", codigo2);
 printf("Cidade: %s\n",cidade2);
 printf("Populacao: %d mil\n",populacao2);
-printf("Area: %.2f mil km quadrados\n", area2);
+printf("Area: %.2lf mil km quadrados\n", area2);
 printf("Pib: %.1f trilões\n", pib2);
 printf("Pontos turisticos: %d\n",x2);
 
