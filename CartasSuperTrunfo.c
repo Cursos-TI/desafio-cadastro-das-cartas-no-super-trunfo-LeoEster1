@@ -8,7 +8,7 @@ char cidade1[56],cidade2[50];
 int populacao1,populacao2;
 float area1,area2, pib1 = 1.1,pib2;
 int x1,x2;
-float percapita1,percapita2;
+float percapita1,percapita2,dp1,dp2;
 
 printf("***\n\nDesafio Super Trunfo!***\n\n");
 
@@ -34,6 +34,7 @@ printf("numeros de pontos turisticos: ");
 scanf("%d", &x1);
 
 percapita1 = (float)populacao1 / pib1;
+dp1 = (float)area1 / populacao1;
 
 printf("\n");
 
@@ -59,6 +60,7 @@ printf("numeros de pontos turisticos2: ");
 scanf("%d", &x2);
 
 percapita2 = (float)populacao2 / pib2;
+dp2 = (float)area2 / populacao2;
 
 
 printf("Carta 1:\n");
@@ -69,6 +71,7 @@ printf("Populacao: %d mil\n",populacao1);
 printf("Area: %.3f mil km²\n", area1);
 printf("Pib: %.1f trilões\n", pib1);
 printf("Pib per capita: %.2f\n",percapita1);
+printf("Desidade populacional: %.2f\n",dp1);
 printf("Pontos turisticos: %d\n\n",x1);
 
 
@@ -79,7 +82,8 @@ printf("Cidade: %s\n",cidade2);
 printf("Populacao: %d mil\n",populacao2);
 printf("Area: %.3f mil km²\n", area2);
 printf("Pib: %.1f trilões\n", pib2);
-printf("Pib per capita: %.2f",percapita2);
+printf("Pib per capita: %.2f\n",percapita2);
+printf("Desidade populacional: %.2f\n",dp2);
 printf("Pontos turisticos: %d\n",x2);
 
 
