@@ -10,7 +10,6 @@ float area1,area2 = 0, pib1,pib2;
 int x1,x2;
 
 printf("***\n\nDesafio Super Trunfo!***\n\n");
-//\nA01\nrio\n1.0\n5.0\n1.0\n2\nb\n
 
 printf("Digite a sigla do estado: ");
 scanf("%c", &Estado1);
